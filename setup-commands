@@ -1,0 +1,12 @@
+mkdir ui2code
+cd ui2code
+npm init -y
+
+# Install dependencies
+npm install
+
+# Create source directories
+mkdir -p src/parsers src/generators src/utils
+
+# Make CLI executable
+chmod +x dist/cli.js 
